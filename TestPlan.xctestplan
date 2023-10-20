@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B3216F81-AC07-49C7-933D-2268BE109EB9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:BMICalculator.xcodeproj",
+        "identifier" : "4EBBCC692ADFEA5900D0D0F6",
+        "name" : "BMICalculatorTests"
+      }
+    }
+  ],
+  "version" : 1
+}

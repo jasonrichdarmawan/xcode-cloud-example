@@ -70,6 +70,8 @@
 		55E2DF2F29EBE82C003CEDEF /* HistoryRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRowComponent.swift; sourceTree = "<group>"; };
 		55E2DF3129EBE85C003CEDEF /* BodyMassIndexDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMassIndexDetailView.swift; sourceTree = "<group>"; };
 		55E2DF3429EBF6E5003CEDEF /* IndexScale+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IndexScale+Color.swift"; sourceTree = "<group>"; };
+		965433662AE276C900D8B8DC /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		965433672AE2788400D8B8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		55E2DEDC29EBB736003CEDEF = {
 			isa = PBXGroup;
 			children = (
+				965433662AE276C900D8B8DC /* TestPlan.xctestplan */,
 				55E2DEE729EBB736003CEDEF /* BMICalculator */,
 				4EBBCC6B2ADFEA5900D0D0F6 /* BMICalculatorTests */,
 				55E2DEE629EBB736003CEDEF /* Products */,
@@ -119,6 +122,7 @@
 		55E2DEE729EBB736003CEDEF /* BMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				965433672AE2788400D8B8DC /* Info.plist */,
 				55E2DF0429EBCD04003CEDEF /* Application */,
 				55E2DF0629EBCD20003CEDEF /* Core */,
 				55E2DF2429EBE688003CEDEF /* Features */,
@@ -376,7 +380,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4EBBCC692ADFEA5900D0D0F6 = {
 						CreatedOnToolsVersion = 15.0;
@@ -524,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -584,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -645,6 +651,7 @@
 				DEVELOPMENT_TEAM = G85YYYKRLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BMICalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -674,6 +681,7 @@
 				DEVELOPMENT_TEAM = G85YYYKRLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BMICalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
